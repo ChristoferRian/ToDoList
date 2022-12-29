@@ -20,7 +20,7 @@ todoSimpan.addEventListener("click", function () {
     todoName.value = ""; //ini bikin form input nya jadi bersih kembali
     todoName.focus();
 
-    let checkTodo = document.querySelectorAll(".form-check-input"); //kita membuat variabel yang akan membuat list nya
+    let checkTodo = document.querySelectorAll(".form-check-input"); //kita membuat variabel yang akan membuat list nya bisa di tandain selesai atau di coret
     for (let i = 0; i < checkTodo.length; i++) {
       const input = checkTodo[i];
       input.addEventListener("change", function () {
